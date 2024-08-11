@@ -1,0 +1,43 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <title>Relationsship-score</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="surveyfrom.css">
+    </head>
+    <body>
+      <h1 id="title">✨Hana Friendship/Love Survery</h1>
+      <p id="description"><i>You are required to answer all thses questions honestly, discover you relationship</i> 💞 <i>score</i></p>
+      <form id="survey-form">
+        <br>
+        <label id="name-label">Name<br> <input type="text" id="name" required placeholder="Hana"/></label><br>
+        <label id="email-label">Email <br><input type="email" id="email" required placeholder="hana@gmail.com"/></label><br>
+        <label id="number-label">How many times have you contacted me in the last month?<br> <input type="number" id="number" min="2" max="100" placeholder="34"/></label><br>
+        <label>What is my favoriate color?<br>
+          <select id="dropdown">
+           <option>Blue</option>
+            <option>Gold</option>
+            <option>Brown</option>
+            <option>Black</option>
+            <option>Cyan</option>
+            <option>I don't have one</option>
+          </select></label><br><br>
+        
+        <label>What meal I will never eat? 🤢</label><br>
+        <div class="align-group"><lable><input type="radio" name="meal" value="sushi"/>Sushi</lable></div>
+        <div class="align-group"><lable><input type="radio" name="meal" value="chole bhature"/>Chole bhature</lable></div>
+        <div class="align-group"><lable><input type="radio" name="meal" value="lasagna"/>Lasagna</lable></div><br>
+        <label>What is my favorite topic in computer science? </label>
+        <div class="align-group"><label><input type="checkbox" value="db"/>Databases</label></div>
+        <div class="align-group"><label><input type="checkbox" value=ds""/>Data Science</label></div>
+        <div class="align-group"><label><input type="checkbox" value="algo"/>Algorithms</label></div>
+        <div class="align-group"><label><input type="checkbox" value="network"/>Networks</label></div>
+        <div class="align-group"><label><input type="checkbox" value="embedded"/>Embedded System</label></div><br>
+        
+        <label>What was your first impression of me? 😲</label>
+        <textarea placeholder="feel free to rant..."></textarea><br>
+        <button id="submit" type="submit" value="Submit">Submit</button>
+      </form>
+    </body>
+  </html>

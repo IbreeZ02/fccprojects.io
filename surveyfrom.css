@@ -1,0 +1,51 @@
+h1, p{
+    text-align:center;
+  }
+  body{
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    display:absolute;
+    background-color:white;
+    border-radius:7px;
+    font-size:20px;
+  }
+  
+  form input[type="radio"],form input[type="checkbox"]{
+    margin-left:0px;
+  }
+  form label{
+    padding:10px;
+  }
+  form input, form input[type="radio"], #dropdown{
+    margin:7px;
+  }
+  button{
+    margin:9px;
+    margin-top:0;
+    border-radius:7px;
+    border:1px solid black;
+    font-size:15px;
+    padding:7px;
+    color:#9C344C;
+    background-color:white;
+  }
+  button:hover{
+    background-color:#EA9CAE;
+    color:white;
+  }
+  textarea{
+    display:block;
+    margin:7px;
+    height:15%;
+    width:50%;
+    margin-bottom:0px;
+    font-size:15px;
+  }
+  #name, #email, #number, #dropdown{
+    height:4.5%;
+    width:50%;
+  }
